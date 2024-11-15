@@ -1,0 +1,23 @@
+.date {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.date__title {
+    font-family: $font-decorative;
+    font-size: 6rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.date__time {
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: .2rem;
+    margin-bottom: 3rem;
+}
+
+.date__heart {
+    margin: auto;
+}

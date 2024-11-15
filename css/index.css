@@ -1,0 +1,407 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+img,
+svg {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+input::-moz-placeholder {
+  color: inherit;
+}
+input::placeholder {
+  color: inherit;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  color: #FFFFFF;
+  line-height: 1.2;
+  background-color: #1e1e1e;
+}
+
+.wrapper {
+  max-width: 48rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 3rem;
+}
+
+.hero .container {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__title {
+  padding-top: 1rem;
+  font-family: "WindSong", cursive;
+  font-size: 8rem;
+  line-height: 1.15;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 400;
+  margin-left: -1.5rem;
+}
+
+.hero__desc {
+  font-size: 2.4rem;
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.hero__heart {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.hero__image {
+  width: 100%;
+  min-height: 55rem;
+  height: 55rem;
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+.hero__image--item {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.date {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.date__title {
+  font-family: "WindSong", cursive;
+  font-size: 6rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.date__time {
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  margin-bottom: 3rem;
+}
+
+.date__heart {
+  margin: auto;
+}
+
+.location {
+  padding-bottom: 5rem;
+}
+.location .container {
+  padding: 0;
+}
+
+.location__title {
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 400;
+  margin-left: -2rem;
+  margin-bottom: 3rem;
+}
+
+.location__wrapper {
+  position: relative;
+  margin-bottom: 7rem;
+}
+
+.location__slide {
+  max-height: 40rem;
+}
+
+.location__image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.swiper-pagination {
+  bottom: -4rem !important;
+}
+
+.swiper-pagination-bullet {
+  width: 1.7rem;
+  height: 1.7rem;
+  background-color: #b0b0b0;
+  margin: 0 0.6rem !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FFF;
+}
+
+.location__icon {
+  margin: 0 auto 2rem auto;
+}
+
+.location__place {
+  display: block;
+  text-align: center;
+  font-size: 2.4rem;
+  text-decoration: none;
+}
+
+.guest {
+  padding-bottom: 5rem;
+}
+
+.guest__title {
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 400;
+  margin-left: -2rem;
+  margin-bottom: 3rem;
+}
+
+.guest__list {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.guest__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.guest__item::before {
+  content: "";
+  position: absolute;
+  bottom: -7.5rem;
+  left: 15rem;
+  width: 14rem;
+  height: 10rem;
+  background-image: url(../img/line-bottom.png);
+}
+
+.guest__item:nth-child(2n) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.guest__item:nth-child(2n)::before {
+  background-image: url(../img/line-top.png);
+  background-size: contain;
+}
+
+.guest__item:last-child::before {
+  display: none;
+}
+
+.guest__image {
+  position: relative;
+  min-width: 17rem;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+}
+
+.guest__image--item {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.dress {
+  padding-bottom: 5rem;
+  padding-top: 3.5rem;
+}
+
+.dress__title {
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  margin-left: -2rem;
+  margin-bottom: 4.5rem;
+}
+
+.dress__list {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.dress__item {
+  width: 10rem;
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.dress__item:nth-child(1) {
+  background-image: url(../img/code1.jpg);
+}
+.dress__item:nth-child(2) {
+  background-image: url(../img/code2.jpg);
+}
+.dress__item:nth-child(3) {
+  background-image: url(../img/code3.jpg);
+}
+
+.gift {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.gift__title {
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  margin-left: -2rem;
+  margin-bottom: 4rem;
+}
+
+.gift__icon {
+  margin: 0 auto 3rem auto;
+}
+
+.gift__desc {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.taks {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.taks__title {
+  font-family: "WindSong", cursive;
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 400;
+  margin-left: -2rem;
+  margin-bottom: 3rem;
+}
+
+.task__desc {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.be {
+  color: #000;
+}
+.be .container {
+  padding: 4rem 0;
+  margin: 0 3rem;
+  background-color: #FFF;
+}
+
+.be__desc {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+
+.be__link {
+  display: inline-block;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  background-color: #000;
+  color: #FFF;
+}
+
+.footer {
+  padding: 5rem 0 2rem 0;
+}
+
+.footer__link {
+  padding: 1rem 0;
+  display: block;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */

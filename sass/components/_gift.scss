@@ -1,0 +1,24 @@
+.gift {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.gift__title {
+    font-family: $font-decorative;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 400;
+    margin-left: -2rem;
+    margin-bottom: 4rem;
+}
+
+.gift__icon {
+    margin: 0 auto 3rem auto;
+}
+
+.gift__desc {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5;
+}

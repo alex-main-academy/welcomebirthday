@@ -1,0 +1,58 @@
+.location {
+    padding-bottom: 5rem;
+
+    .container {
+        padding: 0;
+    }
+}
+
+.location__title {
+    font-family: $font-decorative;
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 400;
+    margin-left: -2rem;
+    margin-bottom: 3rem;
+}
+
+.location__wrapper {
+    position: relative;
+    margin-bottom: 7rem;
+}
+
+.location__slide {
+    max-height: 40rem;
+}
+
+.location__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.swiper-pagination {
+    bottom: -4rem !important;
+}
+
+.swiper-pagination-bullet {
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: #b0b0b0;
+    margin: 0 .6rem !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FFF;
+}
+
+.location__icon {
+    margin: 0 auto 2rem auto;
+}
+
+.location__place {
+    display: block;
+    text-align: center;
+    font-size: 2.4rem;
+    text-decoration: none;
+}

@@ -1,0 +1,20 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $font-main;
+    color: $color-main;
+    line-height: 1.2;
+    background-color: #1e1e1e;
+}
+
+.wrapper {
+    max-width: 48rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 3rem;
+}
