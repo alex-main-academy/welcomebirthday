@@ -88,7 +88,7 @@ body {
 
 .hero__title {
   padding-top: 1rem;
-  font-family: "WindSong", cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 8rem;
   line-height: 1.15;
   letter-spacing: 0.2rem;
@@ -103,6 +103,7 @@ body {
   text-align: center;
   line-height: 1.6;
   font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 .hero__heart {
@@ -112,8 +113,8 @@ body {
 
 .hero__image {
   width: 100%;
-  min-height: 55rem;
-  height: 55rem;
+  min-height: 53.5rem;
+  height: 53.5rem;
   border-top-left-radius: 250px;
   border-top-right-radius: 250px;
   overflow: hidden;
@@ -129,12 +130,11 @@ body {
 }
 
 .date {
-  padding-top: 2rem;
   padding-bottom: 5rem;
 }
 
 .date__title {
-  font-family: "WindSong", cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 6rem;
   font-weight: 400;
   text-align: center;
@@ -160,7 +160,7 @@ body {
 }
 
 .location__title {
-  font-family: "WindSong", cursive;
+  font-family: "Great Vibes", cursive;
   text-align: center;
   font-size: 7rem;
   font-weight: 400;
@@ -217,7 +217,7 @@ body {
 }
 
 .guest__title {
-  font-family: "WindSong", cursive;
+  font-family: "Great Vibes", cursive;
   text-align: center;
   font-size: 7rem;
   font-weight: 400;
@@ -229,34 +229,19 @@ body {
   position: relative;
   z-index: 1;
   display: flex;
-  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .guest__item {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 2.4rem;
-}
-
-.guest__item::before {
-  content: "";
-  position: absolute;
-  bottom: -7.5rem;
-  left: 15rem;
-  width: 14rem;
-  height: 10rem;
-  background-image: url(../img/line-bottom.png);
+  width: calc((100% - 4rem) / 3);
 }
 
 .guest__item:nth-child(2n) {
   flex-direction: row-reverse;
   text-align: right;
-}
-
-.guest__item:nth-child(2n)::before {
-  background-image: url(../img/line-top.png);
-  background-size: contain;
 }
 
 .guest__item:last-child::before {
@@ -265,9 +250,9 @@ body {
 
 .guest__image {
   position: relative;
-  min-width: 17rem;
-  width: 17rem;
-  height: 17rem;
+  min-width: 12rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 50%;
 }
 
@@ -287,7 +272,7 @@ body {
 }
 
 .dress__title {
-  font-family: "WindSong", cursive;
+  font-family: "Great Vibes", cursive;
   text-align: center;
   font-size: 6rem;
   font-weight: 400;
@@ -325,7 +310,7 @@ body {
 }
 
 .gift__title {
-  font-family: "WindSong", cursive;
+  font-family: "Great Vibes", cursive;
   text-align: center;
   font-size: 6rem;
   font-weight: 400;
@@ -350,7 +335,7 @@ body {
 }
 
 .taks__title {
-  font-family: "WindSong", cursive;
+  font-family: "Great Vibes", cursive;
   text-align: center;
   font-size: 6rem;
   font-weight: 400;

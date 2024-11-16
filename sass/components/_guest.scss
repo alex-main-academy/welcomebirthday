@@ -15,34 +15,19 @@
     position: relative;
     z-index: 1;
     display: flex;
-    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .guest__item {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 2.4rem;
-}
-
-.guest__item::before {
-    content: "";
-    position: absolute;
-    bottom: -7.5rem;
-    left: 15rem;
-    width: 14rem;
-    height: 10rem;
-    background-image: url(../img/line-bottom.png);
+    width: calc((100% - 4rem) / 3);
 }
 
 .guest__item:nth-child(2n) {
     flex-direction: row-reverse;
     text-align: right;
-}
-
-.guest__item:nth-child(2n)::before {
-    background-image: url(../img/line-top.png);
-    background-size: contain;
 }
 
 .guest__item:last-child::before {
@@ -51,9 +36,9 @@
 
 .guest__image {
     position: relative;
-    min-width: 17rem;
-    width: 17rem;
-    height: 17rem;
+    min-width: 12rem;
+    width: 12rem;
+    height: 12rem;
     border-radius: 50%;
 }
 
