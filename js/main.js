@@ -6,3 +6,8 @@ var swiper = new Swiper(".swiper", {
         clickable: true,
     },
 });
+
+// AOS animation
+AOS.init({
+    once: true,
+});
