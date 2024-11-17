@@ -9,7 +9,7 @@
     font-size: 6rem;
     font-weight: 400;
     margin-left: -2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
 }
 
 .gift__icon {
@@ -21,4 +21,10 @@
     font-weight: 300;
     text-align: center;
     line-height: 1.5;
+}
+
+.gift__icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }

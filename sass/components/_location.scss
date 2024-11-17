@@ -1,5 +1,5 @@
 .location {
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 
     .container {
         padding: 0;
@@ -17,7 +17,7 @@
 
 .location__wrapper {
     position: relative;
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
 }
 
 .location__slide {
@@ -53,6 +53,10 @@
 .location__place {
     display: block;
     text-align: center;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-decoration: none;
+    margin-bottom: 5rem;
+    font-weight: 300;
+    padding: 0 2rem;
+    line-height: 1.5;
 }
