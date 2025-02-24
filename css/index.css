@@ -420,14 +420,17 @@ body {
 }
 
 .footer {
-  padding: 5rem 0 2rem 0;
+  padding-block: 10rem 3rem;
+}
+
+.footer .container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
 }
 
 .footer__link {
-  padding: 1rem 0;
-  display: block;
-  text-align: center;
-  font-size: 2.2rem;
-  font-weight: 300;
+  font-size: 1.6rem;
   text-decoration: none;
+  padding: 0.5rem;
 }/*# sourceMappingURL=index.css.map */
